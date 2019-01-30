@@ -16,7 +16,20 @@ public class AppTest {
     public void TestFactorial() {
         App app = new App();
 
-        int result = app.Factorial(4);
+        int result = app.factorial(4);
         assertEquals(24, result);
+    }
+    @Test
+    public  void testPow2n(){
+        App a = new App();
+       int result =  a.pow2n(3);
+       assertEquals(8,result);
+    }
+
+    @Test
+    public  void testGreatestCommonDivisor(){
+    // App a = new App();
+     assertEquals(8,App.greatestCommonDivisor(24,16));
+        assertEquals(2,App.greatestCommonDivisor(78,32));
     }
 }
