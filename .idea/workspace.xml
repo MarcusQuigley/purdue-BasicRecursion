@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/purduex/quigley/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/purduex/quigley/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,42 +34,69 @@
     <session id="1234321206">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="4" />
           <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="706" />
+          <entry key="JAVA" value="1332" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="43" />
+            <state relative-caret-position="241">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="method#doItAgain#0;class#App#0" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
                 <element signature="method#repeatMe#0;class#App#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -82,8 +110,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java" />
       </list>
     </option>
   </component>
@@ -95,10 +123,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="17" />
+    <option name="x" value="14" />
     <option name="y" value="14" />
-    <option name="width" value="3066" />
-    <option name="height" value="1659" />
+    <option name="width" value="3070" />
+    <option name="height" value="1663" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,12 +194,29 @@
               <item name="ScratchRecursion" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="ScratchRecursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.11" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ScratchRecursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.11" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.11.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScratchRecursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.11" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,13 +279,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScratchRecursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.purduex.quigley.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.purduex.quigley" />
+      <option name="MAIN_CLASS_NAME" value="com.purduex.quigley.AppTest" />
+      <option name="METHOD_NAME" value="testIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AppTest.TestFactorial" />
       <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AppTest.testIsPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testIsPalindrome" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.TestFactorial" />
       </list>
@@ -259,34 +323,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_TestFactorial - 2019.01.29 at 15h 23m 04s.xml">
-      <configuration name="AppTest.TestFactorial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 15h 23m 16s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 24m 22s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 15h 23m 29s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 26m 48s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 15h 26m 00s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 32m 12s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 35m 18s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 32m 31s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 35m 34s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 34m 25s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 46m 46s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 34m 54s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 47m 09s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 35m 13s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 52m 38s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 38m 22s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.01.29 at 17h 53m 13s.xml">
+    <history-entry file="AppTest - 2019.01.30 at 13h 42m 48s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.30 at 13h 43m 55s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -303,21 +367,21 @@
     <frame x="-7" y="-7" width="1842" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15190583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15358745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49943945" weight="0.32879817" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49663678" visible="true" weight="0.4648526" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4971973" weight="0.39909297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49215245" visible="true" weight="0.4648526" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.63901347" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49943945" weight="0.32879817" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49887893" weight="0.32879817" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49943945" weight="0.32879817" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50336325" side_tool="true" visible="true" weight="0.4648526" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49943945" weight="0.32879817" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50784755" side_tool="true" visible="true" weight="0.4648526" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49775785" weight="0.32879817" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,44 +397,135 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java</url>
-          <line>20</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java</url>
-          <line>49</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java</url>
-          <line>53</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>value.substring(value.length() - 1,value.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(value.length() - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(0, 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;n&quot; == &quot;n&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(0, 1) == value.substring(value.length() - 1,value.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(0, 1) == value.substring(value.length() - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(1, value.length()-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(1, value.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.substring(2, 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="method#doItAgain#0;class#App#0" />
-            <element signature="method#repeatMe#0;class#App#0" />
+            <element signature="e#728#922#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/purduex/quigley/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/purduex/quigley/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="method#doItAgain#0;class#App#0" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="method#repeatMe#0;class#App#0" />
+          </folding>
         </state>
       </provider>
     </entry>

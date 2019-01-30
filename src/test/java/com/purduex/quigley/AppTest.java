@@ -1,6 +1,7 @@
 package com.purduex.quigley;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -31,5 +32,22 @@ public class AppTest {
     // App a = new App();
      assertEquals(8,App.greatestCommonDivisor(24,16));
         assertEquals(2,App.greatestCommonDivisor(78,32));
+    }
+
+    @Test
+    public  void testGeometricSeries(){
+        assertEquals(2,App.geometricSeries(5));
+    }
+
+    @Test
+    public  void testIsPalindrome(){
+        assertFalse("", App.isPalindrome("Shit"));
+        assertTrue("", App.isPalindrome("Navan"));
+    }
+
+    @Test
+    public  void testIsPalindromeRecursive(){
+       // assertFalse("", App.isPalindromeRecursive("Shit"));
+        assertTrue("", App.isPalindromeRecursive("Navan"));
     }
 }
