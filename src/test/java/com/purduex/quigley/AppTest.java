@@ -50,4 +50,21 @@ public class AppTest {
        // assertFalse("", App.isPalindromeRecursive("Shit"));
         assertTrue("", App.isPalindromeRecursive("Navan"));
     }
+
+    @Test
+    public  void testScrambler(){
+        assertEquals("eudruP",App.scrambler("Purdue"));
+    }
+    @Test
+    public  void testScrambler2(){
+        assertEquals("hsif",App.scrambler("fish"));
+    }
+    @Test
+    public  void testScrambler3(){
+        assertEquals("lytcadoretp",App.scrambler("pterodactyl"));
+    }
+    @Test
+    public  void testScrambler4(){
+        assertEquals("Purdue",App.scrambler(App.scrambler("Purdue")));
+    }
 }

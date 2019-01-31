@@ -102,8 +102,19 @@ public class App {
         value = value.toLowerCase();
         //return value.substring(0, 1) == value.substring(value.length() - 1) && isPalindromeRecursive(value.substring(1, value.length()-1));\
         return value.charAt(0) == value.charAt(value.length() - 1) && isPalindromeRecursive(value.substring(1, value.length()-1));
+    }
 
-
+    public  static String scrambler(String value) {
+        if (value == null) throw new IllegalArgumentException("value");
+        int valueLength = value.length();
+        if (valueLength <= 1) {
+            return value;
+        }
+        int midPoint = valueLength/2;
+        String left = value.substring(1,midPoint);
+        String right = value.substring(midPoint,valueLength-1);
+        System.out.println("left:" + left + " right:" + right );
+        return value.charAt(valueLength-1) + scrambler(right) + scrambler(left) + value.charAt(0);
     }
 
 }
