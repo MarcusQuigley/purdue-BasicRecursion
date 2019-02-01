@@ -36,7 +36,20 @@ public class AppTest {
 
     @Test
     public  void testGeometricSeries(){
-        assertEquals(2,App.geometricSeries(5));
+        double result = App.geometric(5);
+        assertEquals(2.0,result,1.0);
+    }
+
+    @Test
+    public  void testGeometricSeries1(){
+        double result = App.geometric(20);
+        assertEquals(2.0,result,1.0);
+    }
+
+    @Test
+    public  void testGeometricSeries2(){
+        double result = App.geometric(0);
+        assertEquals(1.0,result,1.0);
     }
 
     @Test
@@ -59,16 +72,13 @@ public class AppTest {
     public  void testScrambler2(){
         assertEquals("hisf",App.scrambler("fish"));
     }
-    @Test
-    public  void testScrambler3(){
-        assertEquals("lytcadoretp",App.scrambler("pterodactyl"));
-    }
+
     @Test
     public  void testScrambler4(){
         assertEquals("Purdue",App.scrambler(App.scrambler("Purdue")));
     }
     @Test
-    public  void testScrambler5(){
+    public  void testScrambler3(){
         assertEquals("ru", App.scrambler("ur"));
     }
 }

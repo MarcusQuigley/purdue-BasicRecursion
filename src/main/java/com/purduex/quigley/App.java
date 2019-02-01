@@ -69,8 +69,12 @@ public class App {
             return greatestCommonDivisor(b, remainder);
     }
 
-    public static int geometricSeries(int n) {
-        return Integer.MIN_VALUE;
+    public static double geometric(int a) {
+        if (a==0) {
+            return 1;
+        }
+        double result=1 / Math.pow(2,a);
+        return result + geometric(a-1);
     }
 
     static int repeatMe(int a, int b) {
