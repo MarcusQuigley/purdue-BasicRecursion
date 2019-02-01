@@ -53,11 +53,11 @@ public class AppTest {
 
     @Test
     public  void testScrambler(){
-        assertEquals("eudruP",App.scrambler("Purdue"));
+        assertEquals("eruudP",App.scrambler("Purdue"));
     }
     @Test
     public  void testScrambler2(){
-        assertEquals("hsif",App.scrambler("fish"));
+        assertEquals("hisf",App.scrambler("fish"));
     }
     @Test
     public  void testScrambler3(){
@@ -66,5 +66,9 @@ public class AppTest {
     @Test
     public  void testScrambler4(){
         assertEquals("Purdue",App.scrambler(App.scrambler("Purdue")));
+    }
+    @Test
+    public  void testScrambler5(){
+        assertEquals("ru", App.scrambler("ur"));
     }
 }

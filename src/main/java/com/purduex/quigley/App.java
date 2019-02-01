@@ -20,8 +20,11 @@ public class App {
 //        for (int i = 0; i < 17; i++) {
 //            System.out.printf("%d! %d\n",i,a.pow2n(i));
 //        }
-        System.out.printf("%d! %d\n", 5, a.pow2n(5));
-        System.out.printf("%d! %d\n", 5, a.pow2nPurdue(5));
+//        System.out.printf("%d! %d\n", 5, a.pow2n(5));
+//        System.out.printf("%d! %d\n", 5, a.pow2nPurdue(5));
+        System.out.println(scrambler("fish"));
+        System.out.println(scrambler("pterodactyl"));
+        System.out.println(scrambler(scrambler("purdue")));
     }
 
     static int doItAgain(int x) {
@@ -104,17 +107,40 @@ public class App {
         return value.charAt(0) == value.charAt(value.length() - 1) && isPalindromeRecursive(value.substring(1, value.length()-1));
     }
 
-    public  static String scrambler(String value) {
-        if (value == null) throw new IllegalArgumentException("value");
-        int valueLength = value.length();
+//    public  static String scrambler(String value) {
+//        if (value == null) throw new IllegalArgumentException("value");
+//        int valueLength = value.length();
+//        if (valueLength <= 1) {
+//            return value;
+//        }
+//        int midPoint = valueLength/2;
+//        return value.charAt(valueLength-1) + scrambler(value.substring(midPoint,valueLength-1)) + scrambler(value.substring(1,midPoint)) + value.charAt(0);
+//
+//    }
+
+    public static String scrambler(String s) {
+        if (s == null) throw new IllegalArgumentException("s");
+        int valueLength = s.length();
         if (valueLength <= 1) {
-            return value;
+            return s;
         }
         int midPoint = valueLength/2;
-        String left = value.substring(1,midPoint);
-        String right = value.substring(midPoint,valueLength-1);
-        System.out.println("left:" + left + " right:" + right );
-        return value.charAt(valueLength-1) + scrambler(right) + scrambler(left) + value.charAt(0);
+        String left=s.substring(1,midPoint);
+        String right=s.substring(midPoint,valueLength-1);
+        return s.charAt(valueLength-1) + scrambler(left) + scrambler(right) + s.charAt(0);
     }
 
+    public static String scrambler2(String s) {
+        if (s == null) throw new IllegalArgumentException("s");
+        int valueLength = s.length();
+        if (valueLength <= 1) {
+            return s;
+        }
+        int midPoint = valueLength/2;
+
+        return s.charAt(valueLength-1) + scrambler2(s.substring(midPoint,valueLength-1)) + scrambler2(s.substring(1,midPoint)) + s.charAt(0);
+
+
+
+    }
 }
